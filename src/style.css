@@ -1,0 +1,62 @@
+.background {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvsnh_6jyO77lW4FASFQ6eR52hmVRVTdbDqw&usqp=CAU");
+   
+}.phone-number {
+  position: fixed;
+}
+.logo {
+  width: 75px;
+  height: 75px;
+  border-bottom-width: 25px;
+}
+.nav-bar {
+    text-align: center;
+}
+.dropbtn {
+    background-color: #6ba6e9;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10%;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #f30808;}
+  #baby-face {
+      align-items: center;
+      margin-left: 38%;
+      
+  }
+  .inputs {
+    size: 30px;
+  }
+  #two-people {
+    align-items: center;
+    margin-left: 75%;
+  }
+ 
