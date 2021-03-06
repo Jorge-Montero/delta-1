@@ -11,9 +11,10 @@
 }
 .nav-bar {
     text-align: center;
+   /* grid-template-rows:  minmax(100px, 15%) 1fr;*/
 }
 .dropbtn {
-    background-color: #6ba6e9;
+    background-color: #5e76dd;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -52,11 +53,27 @@
       margin-left: 38%;
       
   }
+  .questions {
+    display: grid;
+    grid-template: minmax(20px) 1fr;
+  }
   .inputs {
     size: 30px;
   }
-  #two-people {
-    align-items: center;
-    margin-left: 75%;
+ .parent#brush {
+    display: grid;
+    place-items: center;
   }
+
+  #two-people {
+    float:right;
+    width:150px;
+    height:150px
+    /*align-items: center;
+    margin-left: 75%;*/
+  }
+  #quote-1 {
+    size: 75px;
+  }
+
  
