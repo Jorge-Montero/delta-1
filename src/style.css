@@ -2,7 +2,7 @@
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvsnh_6jyO77lW4FASFQ6eR52hmVRVTdbDqw&usqp=CAU");
    
 }.phone-number {
-  position: fixed;
+  position: right;
 }
 .logo {
   width: 75px;
@@ -59,6 +59,10 @@
   }
   .inputs {
     size: 30px;
+  }
+  .brush {
+    align-items: center;
+    height: 300px;
   }
  .parent#brush {
     display: grid;
