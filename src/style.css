@@ -3,8 +3,9 @@
   padding-left: 35%;
 }*/
 .disabled {
-  display: flex;
-  align-items: flex-end;
+  font-size: 35px; 
+  text-align: right; 
+  position: right;
   height: 250px;
   width: 250px; 
 }
@@ -49,8 +50,8 @@ hr {
   color: red;
   height: 25px;
 }
-#phone-number {
-  margin-top: 3%;
+#book {
+  margin-top: 2%;
   text-align: right;
   position: right;
 }
