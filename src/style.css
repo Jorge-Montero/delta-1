@@ -1,8 +1,10 @@
+/*  --  Index  CSS   -start-  */
+
 /*
 @media (max1409px,){
   padding-left: 35%;
 }*/
-.disabled {
+.disabled :hover{
   font-size: 35px; 
   text-align: right; 
   position: right;
@@ -41,9 +43,24 @@ $(‘.close’).click(function() {
   cursor: pointer;
 }
 .background {
-  height: 205px;
+  align-items: center;
+  height: 300px;
+  width: 100%;
+}   
+.box {
+  
+  background-image: url("https://lh3.googleusercontent.com/proxy/o77Kr1Rp9TNQsHAVWgdM8GdF_gCcAN8mDht4Ja7WhscpHePe6p5u4SlgfFUaNrUofWinKNCQhBkXi8lU59ZqsT9hB4QDWPNX14Ol-_mhdnZY9QGRYysO0zvW3Nb0pqoksN0ZIWZI_no4-guHXN9caIRoWtXvrq_gQQ");
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+  transition: all .5s;
+}
+.background:hover .box,
+.background:focus .box {
+  transform: scale(1.2);
 
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvsnh_6jyO77lW4FASFQ6eR52hmVRVTdbDqw&usqp=CAU");
 }
 hr {
   background-color: red;
@@ -111,8 +128,28 @@ hr {
     font-size: 16px;
     border: none;
     border-radius: 10%;
+     align-content: flex-end;
+     background-size: cover;
   }
-  
+  .testimonials {
+    width:100%;
+    height: 500px;
+  }
+  .first-testimonial {
+    display: inline-flex;
+    opacity: 0.9;
+    background-image: url("https://media.gettyimages.com/videos/dentists-office-video-id962234378?s=640x640");
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    transition: all .5s;
+}
+.testimonials:hover .first-testimonial,
+.testimonials:focus .first-testimonial {
+  transform: scale(1.2);
+}
   .questions {
     display: grid;
     grid-template: minmax(20px) 1fr;
@@ -127,13 +164,25 @@ hr {
     height: 200px;
    /* zoom:100%;*/
   }
- .parent#brush {
-    display: grid;
-    place-items: center;
+  #quote-1 {
+    font-style: italic;
+    font-size: 18px;
+    color: red;
+    margin: 2%;
+    padding: 10%;
   }
-.cookies {
-  align-content: flex-end;
-}
+  #quote-2 {
+    font-style: italic;
+    font-size: 20px;
+    color: red;
+    margin: 2%;
+    padding: 10%;
+  }
+ .parent {
+    display: inline-flex;
+    
+  }
+
   #two-people {
     align-content: flex-end;
     width:150px;
@@ -141,8 +190,65 @@ hr {
     /*align-items: center;
     margin-left: 75%;*/
   }
-  #quote-1 {
-    size: 75px;
+  .pro-box {
+    width:100%;
+    height: 500px;
   }
+  .profile {
+    opacity: 0.8;
+    background-image: url("https://blog.denshine.com/wp-content/uploads/2017/10/Teeth-Extraction-750x400.jpg");
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    transition: all .5s;
+}
+.profile-1 {
+  color:black;
+}
+.pro-box:focus .profile {
+  transform: scale(1.2);
+
+}
+h2 {
+  color: yellow;
+  background-color: rgb(99, 4, 99);
+  border-style: ridge;
+}
+#profile-link {
+  background-color: rgb(99, 4, 99);
+  color: yellow;
+  border-style: ridge;
+}
+td {
+  font-weight: bolder;
+  font-weight: 800;
+  color: rgb(179, 125, 24);
+}
+#first-doc {
+  border-radius: 20%;
+}
+#quote {
+  text-decoration-line: underline;
+  text-decoration-color: cornsilk;
+  text-shadow: cornsilk;
+  font-weight: 900;
+  display: inline-flex;
+  font-size: 20px;
+    color: blue;
+    margin: 2%;
+    padding: 10%;
+  border-radius: 95%;
+  background-color:transparent;
+
+}
+/*  --  Index  CSS   -end-  */
+/*  --  Spanish CSS  -start-  */
+.box-1-line-1 {
+  display: inline-flexbox;
+  flex-direction: row;
+}
+/*  --  Spanish CSS  -end-  */
 
  
